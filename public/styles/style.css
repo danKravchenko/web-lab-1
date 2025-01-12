@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.header-links-list li {
+    padding: 30px 0;
+    list-style: none;
+    display: block;
+    width: 180px;
+    text-align: center;
+    height: 100%;
+}
+
+.header-links-list a {
+    color: #000000;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.header-links-list li:last-child:hover .dropdown-links-list {
+    display: flex;
+}
+
+.header-links-list li:hover {
+    background-color: #598689;
+    cursor: pointer;
+}
+
+.header-links-list li:hover>a {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.dropdown-links-list {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 180px;
+    top: var(--height);
+}
+
+main {
+    background-image: url("./../images/background.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: 1000px;
+}
+
+.main-data-wrapper {
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    background-color: #598689;
+    margin-bottom: 20px;
+    animation: test 1s linear 1;
+    border-radius: 5px;
+}
+
+@keyframes test {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.about {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright {
+    background-color: #598689;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.social-networks {
+    margin: 20px 0;
+}
+
+h4 {
+    text-align: center;
+    color: #598689;
+}
+
+.footer-links-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links-column li {
+    padding: 30px 40px;
+    list-style: none;
+    display: block;
+    width: 180px;
+    text-align: center;
+}
+
+.footer-links-column a {
+    color: #000000;
+    font-size: 19px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.footer-links-column a:hover{
+    color: #598689;
+    text-decoration-color: #598689;
+}

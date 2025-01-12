@@ -1,0 +1,25 @@
+@media(max-width: 820px) {
+    .footer-links-list {
+        justify-content: space-between;
+    }
+
+    .footer-links-column li {
+        padding: 30px 25px;
+        width: 150px;
+    }
+}
+
+@media(max-width: 640px) {
+    .footer-links-column li {
+        padding: 30px 10px;
+        width: 140px;
+    }
+}
+
+@media(max-width: 520px) {
+    .footer-links-list {
+        justify-content: center;
+        width: 250px;
+      }
+}
+
