@@ -228,3 +228,11 @@ footer a:hover {
     opacity: 0.8;
     display: none;
 }
+
+.illustration {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    max-height: 400px;
+    margin: 10px auto;
+}
