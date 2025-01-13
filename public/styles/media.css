@@ -1,3 +1,9 @@
+@media(max-width: 1116px) {
+    .about div {
+        text-align: center;
+    }
+}
+
 @media(max-width: 820px) {
     .footer-links-list {
         justify-content: space-between;
@@ -9,14 +15,24 @@
     }
 }
 
+@media(max-width: 750px) {
+    nav img:first-child {
+        display: initial;
+    }
+
+    .header-links-list {
+        display: none;
+    }
+}
+
 @media(max-width: 640px) {
     .footer-links-list li {
         padding: 30px 10px;
         width: 140px;
     }
 
-    .about div {
-        text-align: center;
+    nav {
+        justify-content: space-around;
     }
 }
 

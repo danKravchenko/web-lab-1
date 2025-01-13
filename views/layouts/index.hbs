@@ -13,6 +13,7 @@
 <body>
     <header>
         <nav>
+            <img src="/images/burger-menu.png" alt="hamburger-menu" width="40" height="50" onclick="openMenu()">
             <img src="/images/logo.png" alt="logo" class="logo">
             <ul class="header-links-list">
                 <li><a href="/">Головна</a></li>
@@ -77,8 +78,22 @@
             <span>&#169; 2025 Данило Кравченко | Майже всі права захищені</span>
         </div>
     </footer>
-    <script src="/js/getHeaderSize.js"></script>
-    <script src="/js/setActiveLink.js"></script>
+    <div id="splash-screen"></div>
+    <div id="burger-menu">
+        <img src="/images/close-icon.png" alt="close" onclick="closeMenu()" width="50" height="50" role="button">
+        <ul class="links-list">
+            <li><a href="/">Головна</a></li>
+            <li><a href="/my-university">Мій ЗВО</a></li>
+            <li><a href="/contacts">Контакти</a></li>
+            <li><a href="/about-author">Біографія</a></li>
+            <li><a href="/hobby">Захоплення</a></li>
+            <li><a href="/my-group">Моя група</a></li>
+            <li><a href="/my-profession">Моя професія</a></li>
+        </ul>
+    </div>
+    <script src="/scripts/getElementsSize.js"></script>
+    <script src="/scripts/setActiveLink.js"></script>
+    <script src="/scripts/burgerMenu.js"></script>
 </body>
 
 </html>
