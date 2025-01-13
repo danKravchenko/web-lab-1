@@ -60,7 +60,7 @@ nav ul {
 
 .header-links-list li:hover,
 #burger-menu li:hover {
-    background-color: #6da6aafa;
+    background-color: #6da6aa;
     cursor: pointer;
 }
 
@@ -166,6 +166,12 @@ h4 {
 
 .social-networks-links a img {
     margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.social-networks-links a img:hover {
+    opacity: 0.7;
 }
 
 .footer-links-list {
@@ -204,7 +210,7 @@ footer a:hover {
 }
 
 #burger-menu li {
-    padding: 18px 0;
+    padding: 23px 0;
     list-style: none;
     display: block;
     text-align: center;
@@ -235,4 +241,5 @@ footer a:hover {
     height: auto;
     max-height: 400px;
     margin: 10px auto;
+    border-radius: 10px;
 }

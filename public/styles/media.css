@@ -23,6 +23,10 @@
     .header-links-list {
         display: none;
     }
+
+    nav {
+        justify-content: space-around;
+    }
 }
 
 @media(max-width: 640px) {
@@ -33,6 +37,10 @@
 
     nav {
         justify-content: space-around;
+    }
+
+    main {
+        font-size: 17px;
     }
 }
 
