@@ -39,19 +39,22 @@ nav ul {
 }
 
 .header-links-list li {
-    padding: 30px 0;
     list-style: none;
-    display: block;
-    width: 180px;
     text-align: center;
-    height: 100%;
 }
 
 .header-links-list a,
 #burger-menu a {
+    padding: 30px 0;
     color: #000000;
     font-size: 21px;
     text-decoration: none;
+    display: block;
+    width: 180px;
+}
+
+#burger-menu a {
+    width: 100%;
 }
 
 .header-links-list li:last-child:hover .dropdown-links-list {
@@ -60,22 +63,18 @@ nav ul {
 
 .header-links-list li:hover,
 #burger-menu li:hover {
-    background-color: #6da6aa;
     cursor: pointer;
 }
 
 .header-links-list li:hover>a,
 #burger-menu li:hover>a {
     font-weight: bold;
+    background-color: #6da6aa;
     color: #ffffff;
 }
 
-.active-link {
-    background-color: #598689;
-    cursor: pointer;
-}
-
 .active-link>a {
+    background-color: #598689;
     font-weight: bold;
     color: #ffffff;
 }
@@ -210,11 +209,8 @@ footer a:hover {
 }
 
 #burger-menu li {
-    padding: 23px 0;
     list-style: none;
-    display: block;
     text-align: center;
-    height: 100%;
 }
 
 #burger-menu img {
