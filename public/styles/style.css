@@ -4,10 +4,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-body{
+body {
     display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 nav {
@@ -87,7 +87,7 @@ main {
 
 .main-data-wrapper {
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #ffffffc4;
     width: 80%;
     margin: 0 auto;
     padding: 30px;
@@ -161,7 +161,7 @@ h4 {
     justify-content: center;
 }
 
-.footer-links-column li {
+footer li {
     padding: 30px 40px;
     list-style: none;
     display: block;
@@ -169,14 +169,14 @@ h4 {
     text-align: center;
 }
 
-.footer-links-column a {
+footer a {
     color: #000000;
     font-size: 19px;
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
 
-.footer-links-column a:hover {
+footer a:hover {
     color: #598689;
     text-decoration-color: #598689;
 }
