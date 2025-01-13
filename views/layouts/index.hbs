@@ -7,7 +7,7 @@
     <title>Мій персональний сайт</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="styles/media.css" type="text/css">
-    <link rel="icon" href="/images/logo.png" type="image/x-icon">
+    <link rel="icon" href="/images/icon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -18,11 +18,12 @@
                 <li><a href="/">Головна</a></li>
                 <li><a href="/my-university">Мій ЗВО</a></li>
                 <li><a href="/contacts">Контакти</a></li>
-                <li><a href="/about-author">Про мене &#x25BC</a>
+                <li><a>Про мене &#x25BC;</a>
                     <ul class="dropdown-links-list">
+                        <li><a href="/about-author">Біографія</a></li>
                         <li><a href="/hobby">Захоплення</a></li>
                         <li><a href="/my-group">Моя група</a></li>
-                        <li><a href="/my-profession">Моя професія</a></li>
+                        <li class="active-link"><a href="/my-profession">Моя професія</a></li>
                     </ul>
                 </li>
             </ul>
@@ -59,13 +60,24 @@
         </div>
         <div class="social-networks">
             <h4>Соціальні мережі</h4>
-            <div class="social-networks-links"></div>
+            <div class="social-networks-links">
+                <a href="https://web.telegram.org" target="_blank"><img src="/images/telegram-icon.png" width="50"
+                        height="50" alt="telegram-icon"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="/images/instagram-icon.png" width="50"
+                        height="50" alt="instagram-icon"></a>
+                <a href="https://www.tiktok.com" target="_blank"><img src="/images/tiktok-icon.png" width="50"
+                        height="50" alt="tiktok-icon"></a>
+                <a href="https://ua.linkedin.com" target="_blank"><img src="/images/linkedin-icon.png" width="50"
+                        height="50" alt="linkedin-icon"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="/images/facebook-icon.png" width="50"
+                        height="50" alt="facebook-icon"></a>
+            </div>
         </div>
         <div class="copyright">
-            <span>&#169 2025 Данило Кравченко | Майже всі права захищені</span>
+            <span>&#169; 2025 Данило Кравченко | Майже всі права захищені</span>
         </div>
     </footer>
+    <script src="/js/getHeaderSize.js"></script>
 </body>
-<script src="/js/getHeaderSize.js"></script>
 
 </html>

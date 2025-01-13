@@ -4,7 +4,8 @@
   "description": "Лабораторна робота з веб-програмування № 1",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon exec js,json,hbs"
+    "test": "nodemon exec js,json,hbs",
+    "start": "node server.js"
   },
   "author": "Danylo Kravchenko",
   "license": "ISC",

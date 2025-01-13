@@ -14,8 +14,11 @@ app.set('views', './views');
 app.set("view engine", "hbs");
 
 app.get("/", (req, res) => {
-    //res.sendFile("index.html");
     res.render("main", {title: "Головна сторінка"});
+});
+
+app.get("/contacts", (req, res) => {
+    res.render("contacts", {title: "Зв'язок зі мною"});
 });
 
 app.listen(3000, () => {

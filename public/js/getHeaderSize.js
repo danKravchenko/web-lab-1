@@ -4,7 +4,7 @@ var dorpDownMenu =  document.querySelector(".dropdown-links-list");
 setNewValueForProperty();
 
 function setNewValueForProperty(){
-    dorpDownMenu.style.setProperty("--height", `${header.offsetHeight}px`);
+    dorpDownMenu.style.setProperty("--top", `${header.offsetHeight}px`);
 };
 
 window.addEventListener("resize", () => {
